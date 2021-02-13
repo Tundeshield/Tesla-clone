@@ -1,0 +1,8 @@
+.sections {
+  width: 100vw;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow: auto;
+  height: 100vh;
+}
+/*# sourceMappingURL=Sections.css.map */
