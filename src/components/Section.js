@@ -1,7 +1,6 @@
 import React from "react";
-import "./Section.css";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import "./Section.css";
+import "../styles/Section.css";
 import Button from "./Button";
 
 function Section({ header, subHeader, btn1, btn2, image, first, twoButtons }) {

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
-import Logo from "./Tesla.wine.svg"
+import "../styles/Header.css";
+import Logo from "../styles/images/Tesla.wine.svg"
 
 const Header = () => {
 	return (

@@ -1,11 +1,11 @@
 import React from "react";
 import Section from "./Section";
-import ModelS from "./Desktop-ModelS.jpg";
-import ModelX from "./Desktop-ModelX.jpg";
-import ModelE from "./tesla-1.jpg";
-import Solar from "./Desktop-SolarPanels.jpg";
-import Mobile from "./Mobile-Accessories.jpg";
-import "./Sections.css";
+import ModelS from "../styles/images/Desktop-ModelS.jpg";
+import ModelX from "../styles/images/Desktop-ModelX.jpg";
+import ModelE from "../styles/images/tesla-1.jpg";
+import Solar from "../styles/images/Desktop-SolarPanels.jpg";
+import Mobile from "../styles/images/Mobile-Accessories.jpg";
+import "../styles/Sections.css";
 
 const Sections = () => {
 	return (
@@ -37,8 +37,8 @@ const Sections = () => {
 			/>
 			<Section
 				twoButtons
-				header="Model Y"
-				subHeader="Order Online for Touchless Delivery"
+				header="Solar Panels"
+				subHeader="Money-back guarantee"
 				btn1="Custom Order"
 				btn2="Existing Inventory"
 				image={Solar}
